@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_app_name">微信</string>
+    <string name="str_hello_world">Hello world!</string>
+    <string name="str_action_search">查找</string>
+    <string name="str_action_add">添加</string>
+    
+    <string name="str_menu_group_chart">发起群聊</string>
+    <string name="str_menu_feedback">帮助与反馈</string>
+    <string name="str_menu_add_freind">添加朋友</string>
+    <string name="str_menu_scan">扫一扫</string>
+    
+    <string name="str_tab_contact">通讯录</string>
+    <string name="str_tab_found">发现</string>
+    <string name="str_tab_me">我</string>
+</resources>

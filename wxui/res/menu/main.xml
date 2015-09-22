@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kisdy.weixin.MainActivity" >
+    
+     <item
+        android:id="@+id/id_action_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/actionbar_search_icon"
+        android:orderInCategory="100"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/str_action_search"/>
+     
+   <item
+        android:id="@+id/action_group_chat"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="@string/str_menu_group_chart"/>
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/menu_add_icon"
+        android:title="@string/str_menu_add_freind"/>
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/men_scan_icon"
+        android:title="@string/str_menu_scan"/>
+    <item
+        android:id="@+id/action_feedback"
+        android:icon="@drawable/menu_feedback_icon"
+        android:title="@string/str_menu_feedback"/>
+
+</menu>
