@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/id_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription="@string/str_image_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/friends_sends_pictures_no">
+    </ImageView>
+
+    <ImageButton
+        android:focusable="false"
+        android:clickable="false"
+        android:id="@+id/id_item_imgbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:src="@drawable/friends_sends_pictures_select_icon_unselected"
+        android:contentDescription="@string/str_imagebutton_desc" />
+
+</RelativeLayout>

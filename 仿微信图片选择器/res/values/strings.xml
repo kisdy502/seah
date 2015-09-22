@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">仿微信图片选择器</string>
+    <string name="str_all_photo">所有图片</string>
+    <string name="str_my_photo">我的图片</string>
+    <string name="str_data_count">图片总数</string>
+    <string name="str_sdcard_unmount">SD卡不可用</string>
+    <string name="str_no_photo">没有搜索到图片</string>
+     <string name="str_loading">正在加载</string>
+ 	<string name="str_image_desc">图片描述</string>
+ 	<string name="str_imagebutton_desc">图片按钮描述</string>
+ 	<string name="str_path_name">/midc</string>
+ 	<string name="str_photo_name">newphot.png</string>
+ 	<string name="str_default_count">0张</string>
+</resources>

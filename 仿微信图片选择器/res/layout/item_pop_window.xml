@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:paddingTop="4dp">
+
+    <ImageView
+        android:id="@+id/iv_firstImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/albums_bg"
+        android:paddingBottom="17dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="9dp"
+        android:scaleType="fitXY" 
+        android:src="@drawable/ic_launcher">
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_firstImage"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/id_tv_itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_path_name"
+            android:layout_marginBottom="2dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/id_tv_itemcount"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/str_default_count"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_iv_selectedimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/ll_center"
+        android:src="@drawable/item_select" 
+        android:visibility="gone">
+    </ImageView>
+
+</RelativeLayout>
